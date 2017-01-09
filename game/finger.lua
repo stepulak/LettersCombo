@@ -6,5 +6,5 @@ function finger_position(x, y)
 end
 
 function finger_isdown()
-  return love.mouse.isDown("l")
+  return love.mouse.isDown(1)
 end

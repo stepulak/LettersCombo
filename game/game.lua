@@ -499,7 +499,7 @@ function game_update(dt)
     game_release(fx, fy)
   end
   if finger_isdown() then
-    -- get current finger position and update the old one
+	-- get current finger position and update the old one
     local x, y = finger_position()
     local x2, y2 = getxy_finger(x, y)
     if x2 > 0 and y2 > 0 then

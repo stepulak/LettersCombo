@@ -12,4 +12,5 @@ function love.conf(t)
   t.window.height = winh
   t.window.title = gametitle
   t.modules.physics = false
+  t.console = true
 end
